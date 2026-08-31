@@ -157,24 +157,6 @@ YOUR_USERNAME/YOUR_REPO
 | MaxViT | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage1/model_v6.1_maxvit_stage1_best.pth) |
 | CoAtNet | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage1/model_v7.1_coatnet_stage1_best.pth) |
 
-建议同时上传每个 Stage 1 checkpoint 对应的 metadata 文件，例如：
-
-```text
-model_v5.1_caformer_stage1_best.pth
-model_v5.1_caformer_stage1_meta.json
-```
-
-### Stage 2 — 跨数据集微调权重
-
-| Backbone | Stage 2 权重 |
-|---|---|
-| ConvNeXt V2 | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage2/convnext_best.pth) |
-| Swin V2 | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage2/swin_best.pth) |
-| EVA-02 | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage2/eva02_best.pth) |
-| EfficientNetV2 | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage2/effnet_best.pth) |
-| CAFormer | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage2/caformer_best.pth) |
-| MaxViT | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage2/maxvit_best.pth) |
-| CoAtNet | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage2/coatnet_best.pth) |
 
 ---
 
