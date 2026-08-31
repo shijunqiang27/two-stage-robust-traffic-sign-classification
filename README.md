@@ -149,25 +149,7 @@ Replace `YOUR_USERNAME/YOUR_REPO` with your Hugging Face repository.
 | CAFormer | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage1/model_v5.1_caformer_stage1_best.pth) |
 | MaxViT | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage1/model_v6.1_maxvit_stage1_best.pth) |
 | CoAtNet | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage1/model_v7.1_coatnet_stage1_best.pth) |
-
-It is recommended to upload each Stage 1 metadata file next to its checkpoint as well, for example:
-
-```text
-model_v5.1_caformer_stage1_best.pth
-model_v5.1_caformer_stage1_meta.json
-```
-
-### Stage 2 — fine-tuned models
-
-| Backbone | Stage 2 checkpoint |
-|---|---|
-| ConvNeXt V2 | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage2/convnext_best.pth) |
-| Swin V2 | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage2/swin_best.pth) |
-| EVA-02 | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage2/eva02_best.pth) |
-| EfficientNetV2 | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage2/effnet_best.pth) |
-| CAFormer | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage2/caformer_best.pth) |
-| MaxViT | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage2/maxvit_best.pth) |
-| CoAtNet | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage2/coatnet_best.pth) |
+SERNAME/YOUR_REPO/resolve/main/stage2/coatnet_best.pth) |
 
 ---
 
