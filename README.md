@@ -1,3 +1,4 @@
+[English](README.md) | [简体中文](README_CN.md)
 # Two-Stage Robust Traffic Sign Classification on GTSRB
 
 A PyTorch/timm project for **robust German Traffic Sign Recognition Benchmark (GTSRB) classification** with a two-stage training pipeline, seven supported backbones, low-light and corruption robustness evaluation, and selectable weighted soft-voting ensembles.
