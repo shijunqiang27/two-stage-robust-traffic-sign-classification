@@ -60,27 +60,11 @@ pip install -r requirements.txt
 | MaxViT | [model.safetensors](https://huggingface.co/timm/maxvit_tiny_rw_224.sw_in1k/resolve/main/model.safetensors?download=true) |
 | CoAtNet | [model.safetensors](https://huggingface.co/timm/coatnet_0_rw_224.sw_in1k/resolve/main/model.safetensors?download=true) |
 
-> 重新分发或商业使用前，请检查对应上游模型许可证。
-
 ---
 
 ## 本项目训练权重
 
-建议将训练后的 checkpoint 上传到 Hugging Face。
-
-将 `YOUR_USERNAME/YOUR_REPO` 替换成你自己的 Hugging Face 仓库。
-
-| Backbone | Stage 1 权重 |
-|---|---|
-| ConvNeXt V2 | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage1/model_v1.1_convnext_gtsrb.pth) |
-| Swin V2 | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage1/model_v2.1_swin_gtsrb.pth) |
-| EVA-02 | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage1/model_v3.1_eva02_stage1_best.pth) |
-| EfficientNetV2 | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage1/model_v4.1_effnet_gtsrb.pth) |
-| CAFormer | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage1/model_v5.1_caformer_stage1_best.pth) |
-| MaxViT | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage1/model_v6.1_maxvit_stage1_best.pth) |
-| CoAtNet | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage1/model_v7.1_coatnet_stage1_best.pth) |
-
-建议将 Stage 1 metadata 与 checkpoint 一起保存。
+https://huggingface.co/Shijunqiang/TrafficSignClassification
 
 ---
 
@@ -99,7 +83,7 @@ data/
     └── Test.csv
 ```
 
-官方数据集：[GTSRB](https://benchmark.ini.rub.de/gtsrb_dataset.html)
+官方数据集：[GTSRB](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign)
 
 ### Stage 2 目标数据集
 
@@ -245,18 +229,6 @@ python evaluation/ensemble_evaluation.py
     └── tsne_features.png
 ```
 
-以下内容不建议提交到普通 Git：
-
-```text
-data/
-weights/
-outputs/
-*.pth
-*.pt
-*.ckpt
-*.safetensors
-```
-
 ---
 
 ## 实验复现
@@ -282,9 +254,5 @@ outputs/
   publisher={Elsevier}
 }
 ```
-
-## License
-
-公开仓库前请在 `LICENSE` 中指定项目代码许可证。第三方数据集和预训练权重仍遵循各自许可证。
 
     
