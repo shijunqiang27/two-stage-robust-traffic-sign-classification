@@ -60,25 +60,11 @@ These are the upstream timm weights hosted on Hugging Face.
 | MaxViT | [model.safetensors](https://huggingface.co/timm/maxvit_tiny_rw_224.sw_in1k/resolve/main/model.safetensors?download=true) |
 | CoAtNet | [model.safetensors](https://huggingface.co/timm/coatnet_0_rw_224.sw_in1k/resolve/main/model.safetensors?download=true) |
 
-> Check the upstream model card/license before redistribution or commercial use.
-
 ---
 
 ## Trained Checkpoints
 
-Upload your trained checkpoints to Hugging Face and replace `YOUR_USERNAME/YOUR_REPO`.
-
-| Backbone | Stage 1 checkpoint |
-|---|---|
-| ConvNeXt V2 | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage1/model_v1.1_convnext_gtsrb.pth) |
-| Swin V2 | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage1/model_v2.1_swin_gtsrb.pth) |
-| EVA-02 | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage1/model_v3.1_eva02_stage1_best.pth) |
-| EfficientNetV2 | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage1/model_v4.1_effnet_gtsrb.pth) |
-| CAFormer | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage1/model_v5.1_caformer_stage1_best.pth) |
-| MaxViT | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage1/model_v6.1_maxvit_stage1_best.pth) |
-| CoAtNet | [Hugging Face](https://huggingface.co/YOUR_USERNAME/YOUR_REPO/resolve/main/stage1/model_v7.1_coatnet_stage1_best.pth) |
-
-Keep each Stage 1 metadata file together with its checkpoint.
+https://huggingface.co/Shijunqiang/TrafficSignClassification
 
 ---
 
@@ -97,7 +83,7 @@ data/
     └── Test.csv
 ```
 
-Official benchmark: [GTSRB](https://benchmark.ini.rub.de/gtsrb_dataset.html)
+Official benchmark: [GTSRB](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign)
 
 ### Stage 2 target dataset
 
@@ -279,8 +265,5 @@ outputs/
 }
 ```
 
-## License
-
-Add your code license in `LICENSE` before public release. Third-party datasets and pretrained weights remain subject to their own licenses.
 
     
