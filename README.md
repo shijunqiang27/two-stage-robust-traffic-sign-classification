@@ -227,18 +227,6 @@ Test set: **12,630 images / 43 classes**
     └── tsne_features.png
 ```
 
-Do not commit datasets, checkpoints or training outputs to normal Git history:
-
-```text
-data/
-weights/
-outputs/
-*.pth
-*.pt
-*.ckpt
-*.safetensors
-```
-
 ---
 
 ## Reproducibility
